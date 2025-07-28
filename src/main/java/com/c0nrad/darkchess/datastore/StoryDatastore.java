@@ -30,6 +30,17 @@ public class StoryDatastore {
 
     public static void SeedLevels() throws InvalidBoardException, InvalidPieceException{
         Datastore d = MorphiaSingleton.GetDatastore();
+
+public class MiClase {
+    private static final String P_STRING = "PPPPPPPP";
+
+    public void miMetodo() {
+        System.out.println(P_STRING);
+        log.info(P_STRING);
+        String texto = P_STRING;
+        // etc...
+    }
+}
         
         Story s1 = new Story();
         s1.title = "Frontal Siege";
@@ -42,7 +53,7 @@ public class StoryDatastore {
 
         String[] layout ={
             "    K   ", 
-            "PPPPPPPP",
+            P_STRING,
             "        ",
             "        ",
             "        ",
@@ -91,7 +102,7 @@ public class StoryDatastore {
 
         String[] layout3 ={
             "RNBQKBNR", 
-            "PPPPPPPP",
+            P_STRING,
             "        ",
             "        ",
             "        ",
@@ -115,7 +126,7 @@ public class StoryDatastore {
 
         String[] layout4 ={
             "PPPPKPPP", 
-            "PPPPPPPP",
+            P_STRING,
             "PPPPPPPP",
             "        ",
             "        ",
@@ -137,7 +148,7 @@ public class StoryDatastore {
 
         String[] layout5 ={
             "RNBQKBNR", 
-            "PPPPPPPP",
+            P_STRING,
             "        ",
             "        ",
             "        ",
